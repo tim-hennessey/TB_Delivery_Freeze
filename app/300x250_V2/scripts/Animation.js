@@ -79,20 +79,10 @@ app.Animation = (function () {
         t.to(icicle2, 5, {y: "+=25", scaleY: 1, ease: Sine.easeOut});
         t.to(fog, 5, {y: "-=80", scaleY: 1.5, scaleX: 1, ease: Sine.easeOut});
 
-        wiggletl.to(txt1, .05, {y: '-=2', rotation:1, ease: Sine.easeInOut}, "+=1")
-            .to(txt1, .05, {y: '+=2', rotation:0, ease: Sine.easeInOut})
-            .to(txt1, .05, {y: '-=2', rotation:-1, ease: Sine.easeInOut})
-            .to(txt1, .05, {y: '+=2', rotation:0, ease: Sine.easeInOut})
-            .to(txt1, .05, {y: '-=1', rotation:1, ease: Sine.easeInOut})
-            .to(txt1, .05, {y: '+=1', rotation:0, ease: Sine.easeInOut})
-            .to(txt1, .05, {y: '-=2', rotation:-1, ease: Sine.easeInOut})
-            .to(txt1, .05, {y: '+=2', rotation:0, ease: Sine.easeInOut})
-            .to(txt1, .05, {y: '-=2', rotation:1, ease: Sine.easeInOut})
-            .to(txt1, .05, {y: '+=2', rotation:0, ease: Sine.easeInOut})
-            .to(txt1, .05, {y: '-=2', rotation:-1, ease: Sine.easeInOut})
-            .to(txt1, .05, {y: '+=2', rotation:0, ease: Sine.easeInOut})
-            .to(txt1, .05, {y: '-=2', rotation:1, ease: Sine.easeInOut})
-            .to(txt1, .05, {y: '+=2', rotation:0, ease: Sine.easeInOut});
+        wiggletl.to(txt1, .065, {y: '-=1', rotation:1, ease: Sine.easeInOut})
+            .to(txt1, .065, {y: '+=1', rotation:0, ease: Sine.easeInOut})
+            .to(txt1, .065, {y: '-=1', rotation:-1, ease: Sine.easeInOut})
+            .to(txt1, .065, {y: '+=1', rotation:0, ease: Sine.easeInOut});
 
 
         pintl1.from(pin1, .25, {scale: "-=.2", opacity: 0, ease: Sine.easeInOut}, "+=3.5")
